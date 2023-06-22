@@ -39,7 +39,6 @@ def clean_text(body):
     body = body.strip()
     return body
 
-
 def group_comments(df):
     # Result dataframe
     new_df = pd.DataFrame(columns=['author', 'body', 'og_body'])
