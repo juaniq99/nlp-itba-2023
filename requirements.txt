@@ -1,0 +1,11 @@
+--find-links https://download.pytorch.org/whl/cu118
+torch   # pip install torch --index-url https://download.pytorch.org/whl/cu118  may have to be run manually to use CUDA
+pandas
+nltk
+scikit-learn
+datasets
+evaluate
+transformers
+accelerate
+nvidia-ml-py3
+xformers
