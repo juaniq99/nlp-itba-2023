@@ -59,7 +59,7 @@ if __name__ == "__main__":
     lines_df = pd.read_csv(lines_file)
     
     # Read speakers file into dataframe
-    speakers_file = "D:\\Downloads\\nlp-itba-2023\\movies\\speakers.csv"
+    speakers_file = "D:\\Downloads\\nlp-itba-2023\\movies\\speakers_tagged.csv"
     speakers_df = pd.read_csv(speakers_file)
 
     # Drop if body is empty
